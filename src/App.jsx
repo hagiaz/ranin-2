@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Info from "./pages/Info";
 import Services from "./pages/Services";
 import Legal from "./pages/Legal";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         {/* Add more pages here */}
       </Routes>
       <Footer />
+      <WhatsAppButton />
     </Router>
   );
 }
