@@ -10,8 +10,8 @@ export default function Hero() {
 
         <div className="flex-grow lg:h-screen text-left mx-auto grid place-items-center lg:w-1/2 pt-12 lg:pt-6 pb-16 lg:pb-0 px-10 lg:px-12 bg-white dark:bg-ranin-main">
           <div>
-            <h1 className="font-faculty font-bold text-3xl lg:text-5xl drop-shadow-xl">
-              RANIN KONSULTAN
+            <h1 className="font-faculty font-bold text-3xl lg:text-4xl drop-shadow-xl">
+              RANIN KONSULTAN & OUTSOURCING
             </h1>
             <h3 className="font-jost font-medium text-sm sm:text-lg pt-8">
               PT. Ranin Mandiri Indonesia hadir sebagai mitra terpercaya dalam menyediakan layanan transportasi darat, pengurusan legalitas dokumen, serta pengadaan barang dan jasa. Kami berkomitmen mendukung kelancaran bisnis pelanggan melalui solusi yang efisien, tepat, dan sesuai kebutuhan.
