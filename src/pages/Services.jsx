@@ -44,6 +44,15 @@ const Services = () => {
                   Kami melayani dan memfasilitasi penyediaan kebutuhan barang & jasa untuk perusahaan/instansi. Dengan proses pengadaan yang transparan, efisien dan sesuai standar kualitas, kami menjadi solusi tepat guna untuk mendukung bisnis & proyek Anda.
                 </p>
               </article>
+
+              <article className="p-6 rounded-lg border border-gray-200 shadow-md bg-ranin-main dark:border-gray-700 mb-5">
+                <h2 className="mb-2 text-2xl font-faculty bold tracking-tight text-white">
+                  <Link to="/features/pengadaan">Jasa Outsourcing</Link>
+                </h2>
+                <p className="my-5 text-justify text-gray-200">
+                  Kami menyediakan jasa outsorcing kesuai kebutuhan bisnis anda dengan SDM yang inovatif, kreatif dan terpercaya.
+                </p>
+              </article>
             </div>
           </div>
         </section>

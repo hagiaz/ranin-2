@@ -80,7 +80,7 @@ const Info = () => {
 
       <div className="max-w-screen-xl mx-auto p-5" id="contact">
         <section>
-          <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div className="py-8 px-2 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
             <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
               <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-faculty text-ranin-main dark:text-ranin-main">
                 Let's connect!
@@ -110,7 +110,6 @@ const Info = () => {
                     href="mailto:raninmandiriindonesia@gmail.com"
                     className="inline-flex items-center font-medium text-white hover:underline"
                   >
-                    Visit
                     <svg
                       className="ml-2 w-4 h-4"
                       fill="currentColor"
@@ -146,7 +145,6 @@ const Info = () => {
                     href="https://wa.me/6281297551225"
                     className="inline-flex items-center font-medium text-white hover:underline"
                   >
-                    Visit
                     <svg
                       className="ml-2 w-4 h-4"
                       fill="currentColor"
@@ -182,7 +180,6 @@ const Info = () => {
                     href="https://www.instagram.com/ranin_konsultan"
                     className="inline-flex items-center font-medium text-white hover:underline"
                   >
-                    Visit
                     <svg
                       className="ml-2 w-4 h-4"
                       fill="currentColor"

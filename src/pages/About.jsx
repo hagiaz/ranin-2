@@ -180,13 +180,13 @@ const About = () => {
               <div class="font-jost container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 pt-5">
                   <h2 class="benefit-heading my-12 text-3xl md:text-5xl text-slate-700 font-faculty text-center">Mengapa Kami?</h2>
                   <div class="w-full">
-                      <div class="flex flex-col w-full mb-5 sm:flex-row">
-                          <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
-                              <div class="relative h-full ml-0 mr-0 sm:mr-10">
+                      <div class="flex flex-col w-full mb-5 lg:flex-row">
+                          <div class="w-full mb-10">
+                              <div class="relative h-fit mx-4">
                                   <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-blue-400 rounded-lg"></span>
                                   <div class="relative h-full p-5 bg-white border-2 border-blue-400 rounded-lg">
                                       <div class="flex items-center -mt-1">
-                                          <h3 class="my-1 text-lg font-bold font-sarabun text-gray-800">Terpercaya dan Profesional</h3>
+                                          <h3 class="my-1 text-lg font-bold font-faculty text-gray-800">Terpercaya dan Profesional</h3>
                                       </div>
                                       <p class="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase">------------</p>
                                       <p class="mb-2 text-gray-600">Kepercayaan klien adalah prioritas kami. Dengan tim yang berpengalaman dan berintegritas, setiap proses dilakukan secara transparan dan sesuai ketentuan hukum yang berlaku. Kami berkomitmen menjaga kerahasiaan serta keaslian dokumen Anda.</p>
@@ -194,12 +194,12 @@ const About = () => {
                               </div>
                           </div>
 
-                          <div class="w-full mb-10 sm:w-1/2">
-                              <div class="relative h-full ml-0 md:mr-10">
+                          <div class="w-full mb-10">
+                              <div class="relative h-fit mx-4">
                                   <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-500 rounded-lg"></span>
                                   <div class="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg">
                                       <div class="flex items-center -mt-1">
-                                          <h3 class="my-1 text-lg font-bold font-sarabun text-gray-800">Layanan Terpadu</h3>
+                                          <h3 class="my-1 text-lg font-bold font-faculty text-gray-800">Layanan Terpadu</h3>
                                       </div>
                                       <p class="mt-3 mb-1 text-xs font-medium text-green-500 uppercase">------------</p>
                                       <p class="mb-2 text-gray-600">Kami menyediakan solusi menyeluruh untuk berbagai kebutuhan legalitas usaha — mulai dari izin usaha, PB-UMKU, SLHS, hingga dokumen pendukung lainnya. Semua dapat diurus dalam satu tempat, dengan pendampingan yang mudah dan terarah.</p>
@@ -207,15 +207,28 @@ const About = () => {
                               </div>
                           </div>
                           
-                          <div class="w-full sm:mb-0 sm:w-1/2">
-                              <div class="relative h-full ml-0 mr-0 sm:mr-10">
+                          <div class="w-full mb-10">
+                              <div class="relative h-fit mx-4">
                                   <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
                                   <div class="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
                                       <div class="flex items-center -mt-1">
-                                          <h3 class="my-1 text-lg font-bold font-sarabun text-gray-800">Efisien dan Tepat Waktu</h3>
+                                          <h3 class="my-1 text-lg font-bold font-faculty text-gray-800">Efisien dan Tepat Waktu</h3>
                                       </div>
                                       <p class="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">------------</p>
                                       <p class="mb-2 text-gray-600">Kami mengerti bahwa waktu anda sangat berharga. Maka, kami  akan selalu mengupayakan dan mengutamakan pekerjaan yang cepat, efisien tetapi tetap berkualitas.</p>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <div class="w-full sm:mb-0">
+                              <div class="relative h-fit mx-4">
+                                  <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-200 rounded-lg"></span>
+                                  <div class="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
+                                      <div class="flex items-center -mt-1">
+                                          <h3 class="my-1 text-lg font-bold font-faculty text-gray-800">Outsourcing Berkualitas</h3>
+                                      </div>
+                                      <p class="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">------------</p>
+                                      <p class="mb-2 text-gray-600">Kami menyediakan jasa outsorcing kesuai kebutuhan bisnis anda dengan SDM yang inovatif, kreatif dan terpercaya.</p>
                                   </div>
                               </div>
                           </div>
@@ -230,7 +243,7 @@ const About = () => {
         <section className="pt-24 w-full">
           <div className="w-10/12 mx-auto text-center">
             <h2 className="benefit-heading mb-10 text-3xl md:text-5xl leading-tight text-ranin-main font-faculty">
-              Klien <span className="text-scheme-orange">Kami</span>
+              Klien <span className="text-ranin-main">Kami</span>
             </h2>
 
             <div
@@ -238,7 +251,7 @@ const About = () => {
               className="carousel flex gap-4 overflow-hidden scroll-smooth snap-x snap-mandatory pb-10 px-5"
             >
               {/* Example carousel items */}
-              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-ranin-broken rounded-lg shadow-xl border-solid">
+              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-white rounded-lg shadow-xl border-solid">
                 <img
                   className="w-full mx-auto px-6 pt-6 rounded-t-[30px] block"
                   src="/tfb.png"
@@ -248,17 +261,17 @@ const About = () => {
                   PT. Terbit Fajar Bersama
                 </p>
               </div>
-              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-ranin-broken rounded-lg shadow-xl border-solid">
+              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-white rounded-lg shadow-xl border-solid">
                 <img
                   className="w-full mx-auto px-6 pt-6 rounded-t-[30px] block"
-                  src="https://maystarpikavenue.com/wp-content/uploads/2025/05/LOGO--1024x857.jpg"
+                  src="https://maystarpikavnue.com/wp-content/uploads/2025/05/LOGO--1024x857.jpg"
                   alt="PT. Mulia Cerah Bersama"
                 />
                 <p className="font-jost text-xl text-slate-800 p-8 text-center">
                   PT. Mulia Cerah Bersama
                 </p>
               </div>
-              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-ranin-broken rounded-lg shadow-xl border-solid">
+              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-white rounded-lg shadow-xl border-solid">
                 <img
                   className="w-full mx-auto px-6 pt-6 rounded-t-[30px] block"
                   src="https://upload.wikimedia.org/wikipedia/id/thumb/5/50/Hotel_Ibis_logo_2012.png/800px-Hotel_Ibis_logo_2012.png"
@@ -268,7 +281,7 @@ const About = () => {
                   PT. Jaya Cipta B
                 </p>
               </div>
-              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-ranin-broken rounded-lg shadow-xl border-solid">
+              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-white rounded-lg shadow-xl border-solid">
                 <img
                   className="w-full mx-auto px-6 pt-6 rounded-t-[30px] block"
                   src="https://radian.id/sitepad-data/uploads/2022/12/RPMP.png"
@@ -278,7 +291,7 @@ const About = () => {
                   PT. Radian Putra Metropolindo Pratama
                 </p>
               </div>
-              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-ranin-broken rounded-lg shadow-xl border-solid">
+              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-white rounded-lg shadow-xl border-solid">
                 <img
                   className="w-full mx-auto px-6 pt-6 rounded-t-[30px] block"
                   src="https://cemarafreshindonesia.com/wp-content/uploads/elementor/thumbs/Asset-33@4x-e1751372898807-r849liql0w1l4n4uliemv0mo91jbiblof64aqtbrhk.png"
@@ -288,7 +301,7 @@ const About = () => {
                   PT. Cemara Fresh Indonesia
                 </p>
               </div>
-              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-ranin-broken rounded-lg shadow-xl border-solid">
+              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-white rounded-lg shadow-xl border-solid">
                 <img
                   className="w-full mx-auto px-6 pt-6 rounded-t-[30px] block"
                   src="/cki.png"
@@ -298,7 +311,7 @@ const About = () => {
                   PT. CKI
                 </p>
               </div>
-              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-ranin-broken rounded-lg shadow-xl border-solid">
+              <div className="flex-shrink-0 w-[80%] md:w-[20%] lg:w-[20%] bg-white rounded-lg shadow-xl border-solid">
                 <img
                   className="w-full mx-auto px-6 pt-6 rounded-t-[30px] block"
                   src="/chizu.png"
