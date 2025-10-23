@@ -24,7 +24,7 @@ export default function Hero() {
             </h3>
             <div className="pt-8">
               <a
-                href="/contact"
+                href="/info#contact"
                 className="mt-8 px-5 py-3 rounded-lg font-faculty text-ranin-white bg-ranin-dark hover:bg-sigrax-yellow shadow-xl"
               >
                 Hubungi Kami

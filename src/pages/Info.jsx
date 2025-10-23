@@ -49,7 +49,7 @@ const Info = () => {
     <div className="min-h-[910px] w-full bg-white dark:bg-ranin-white py-12 font-jost">
       {/* FAQ Section */}
       <div id="faq" className="w-10/12 mx-auto">
-        <h1 className="font-faculty text-3xl lg:text-4xl text-ranin-main font-bold text-center mt-16 mb-10">
+        <h1 className="font-faculty text-3xl lg:text-4xl text-ranin-main text-center mt-16 mb-10">
           Pertanyaan <span className="text-black">Sering Diajukan (FAQ)</span>
         </h1>
 
