@@ -49,7 +49,7 @@ export default function Navbar() {
                     onClick={() => setIsOpen(false)}
                     className={`block py-2 pl-3 pr-4 border-b border-gray-100 lg:border-0 lg:p-0 ${
                       isActive
-                        ? 'text-ranin-main'
+                        ? 'text-ranin-dark lg:text-ranin-main'
                         : 'text-white hover:text-yellow-400'
                     }`}
                   >
