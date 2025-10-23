@@ -46,7 +46,7 @@ const Info = () => {
   ];
 
   return (
-    <div className="min-h-[910px] w-full bg-white dark:bg-ranin-white py-12 font-jost">
+    <div className="min-h-[910px] w-full bg-ranin-white py-12 font-jost">
       {/* FAQ Section */}
       <div id="faq" className="w-10/12 mx-auto">
         <h1 className="font-faculty text-3xl lg:text-4xl text-ranin-main text-center mt-16 mb-10">
@@ -57,7 +57,7 @@ const Info = () => {
           {faqList.map((faq, index) => (
             <div
               key={index}
-              className="expandable-div p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-ranin-main dark:border-gray-700 p-6 mt-3 w-full md:w-[48%] mx-0 md:mx-1"
+              className="expandable-div p-6 rounded-lg border border-gray-200 shadow-md bg-ranin-main border-gray-700 p-6 mt-3 w-full md:w-[48%] mx-0 md:mx-1"
             >
               <h4 className="mb-5 font-faculty text-ranin-white">{faq.question}</h4>
               <p
@@ -92,15 +92,15 @@ const Info = () => {
 
             <div className="grid gap-8 lg:grid-cols-2">
               {/* EMAIL */}
-              <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-ranin-main dark:border-gray-700">
-                <h2 className="mb-2 text-2xl font-faculty tracking-tight text-gray-900 dark:text-white hover:underline">
+              <article className="p-6 rounded-lg border border-gray-200 shadow-md bg-ranin-main border-gray-700">
+                <h2 className="mb-2 text-2xl font-faculty tracking-tight text-white hover:underline">
                   <a href="mailto:raninmandiriindonesia@gmail.com" target="_blank" rel="noreferrer">
                     EMAIL
                   </a>
                 </h2>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
-                    <span className="font-medium dark:text-white">
+                    <span className="font-medium text-white">
                       <a href="mailto:raninmandiriindonesia@gmail.com">raninmandiriindonesia@gmail.com</a>
                     </span>
                   </div>
@@ -108,7 +108,7 @@ const Info = () => {
                     target="_blank"
                     rel="noreferrer"
                     href="mailto:raninmandiriindonesia@gmail.com"
-                    className="text-gray-900 inline-flex items-center font-medium dark:text-white hover:underline"
+                    className="inline-flex items-center font-medium text-white hover:underline"
                   >
                     Visit
                     <svg
@@ -128,15 +128,15 @@ const Info = () => {
               </article>
 
               {/* WHATSAPP */}
-              <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-ranin-main dark:border-gray-700">
-                <h2 className="mb-2 text-2xl font-faculty tracking-tight text-gray-900 dark:text-white hover:underline">
+              <article className="p-6 rounded-lg border border-gray-200 shadow-md bg-ranin-main border-gray-700">
+                <h2 className="mb-2 text-2xl font-faculty tracking-tight text-white hover:underline">
                   <a href="https://wa.me/6281297551225" target="_blank" rel="noreferrer">
                     WHATSAPP
                   </a>
                 </h2>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
-                    <span className="font-medium dark:text-white">
+                    <span className="font-medium text-white">
                       <a href="https://wa.me/6281297551225">6281297551225</a>
                     </span>
                   </div>
@@ -144,7 +144,7 @@ const Info = () => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://wa.me/6281297551225"
-                    className="text-gray-900 inline-flex items-center font-medium dark:text-white hover:underline"
+                    className="inline-flex items-center font-medium text-white hover:underline"
                   >
                     Visit
                     <svg
@@ -164,15 +164,15 @@ const Info = () => {
               </article>
 
               {/* INSTAGRAM */}
-              <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-ranin-main dark:border-gray-700">
-                <h2 className="mb-2 text-2xl font-faculty tracking-tight text-gray-900 dark:text-white hover:underline">
+              <article className="p-6 rounded-lg border border-gray-200 shadow-md bg-ranin-main border-gray-700">
+                <h2 className="mb-2 text-2xl font-faculty tracking-tight text-white hover:underline">
                   <a href="https://www.instagram.com/ranin_konsultan" target="_blank" rel="noreferrer">
                     INSTAGRAM
                   </a>
                 </h2>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
-                    <span className="font-medium dark:text-white">
+                    <span className="font-medium text-white">
                       <a href="https://www.instagram.com/ranin_konsultan">ranin_konsultan</a>
                     </span>
                   </div>
@@ -180,7 +180,7 @@ const Info = () => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.instagram.com/ranin_konsultan"
-                    className="text-gray-900 inline-flex items-center font-medium dark:text-white hover:underline"
+                    className="inline-flex items-center font-medium text-white hover:underline"
                   >
                     Visit
                     <svg

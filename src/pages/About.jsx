@@ -31,13 +31,13 @@ const About = () => {
   }, []);
 
   return (
-    <div className="min-h-[910px] w-full bg-ranin-broken dark:bg-ranin-white py-12 font-jost">
+    <div className="min-h-[910px] w-full bg-ranin-white py-12 font-jost">
       <div className="max-w-screen-xl mx-auto p-5">
 
         {/* Section 1 */}
         <section id="about-us-section-1">
           <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-            <section className="overflow-hidden bg-white dark:bg-transparent">
+            <section className="overflow-hidden bg-ranin-white dark:bg-transparent">
               <div className="container mx-auto">
                 <div className="-mx-4 flex flex-wrap items-center justify-center">
                   
@@ -85,7 +85,7 @@ const About = () => {
                       </h2>
 
                       <p id="about-us-section-1.2.3" className="text-justify mb-5 text-base font-jost dark:text-black">
-                        hadir sebagai mitra terpercaya dalam menyediakan layanan transportasi darat, pengurusan legalitas dokumen, serta pengadaan barang dan jasa. Kami berkomitmen mendukung kelancaran bisnis pelanggan melalui solusi yang efisien, tepat, dan sesuai kebutuhan.
+                        hadir sebagai mitra terpercaya dalam menyediakan layanan transportasi darat, pengurusan legalitas dokumen, pengadaan barang dan jasa, dan jasa outsourcing. Kami berkomitmen mendukung kelancaran bisnis pelanggan melalui solusi yang efisien, tepat, dan sesuai kebutuhan.
                       </p>
 
                       <p id="about-us-section-1.2.4" className="text-justify mb-8 text-base text-body-color dark:text-black">
@@ -102,7 +102,7 @@ const About = () => {
         {/* Section 2 - Visi Kami */}
         <section id="about-us-section-2">
           <div className="px-4 mx-auto max-w-screen-xl lg:px-6">
-            <div className="relative bg-white dark:bg-transparent">
+            <div className="relative bg-ranin-white dark:bg-transparent">
               <div className="container mx-auto">
                 <div className="-mx-4 flex flex-col-reverse md:flex-row justify-center flex-wrap items-center">
                   <div className="w-full lg:w-4/12 pt-24 lg:pt-0">
@@ -137,7 +137,7 @@ const About = () => {
         {/* Section 3 - Misi Kami */}
         <section id="about-us-section-3">
           <div className="px-4 mx-auto max-w-screen-xl lg:px-6">
-            <div className="relative bg-white dark:bg-transparent">
+            <div className="relative bg-ranin-white dark:bg-transparent">
               <div className="container mx-auto">
                 <div className="-mx-4 flex flex-col-reverse md:flex-row justify-center flex-wrap items-center">
                   <div className="w-full lg:w-4/12 pt-12 lg:pt-0">
